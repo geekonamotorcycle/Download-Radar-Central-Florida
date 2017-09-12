@@ -1,4 +1,4 @@
-$date = Read-Host "Enter the date YYYYMMDD:" $
+$date = Read-Host "Enter the date YYYYMMDD:"
 $date = ("http://thredds.ucar.edu/thredds/catalog/nexrad/level3/DTA/TBW/" + $date + "/" + "catalog.xml")
 #$date = "20170911"
 
